@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java_oop.lesson_1_2.Fitness_Trainer_v1</OriginalElement>
+  <nodes>
+    <node x="260.61847826086967" y="278.0">java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgram</node>
+    <node x="1146.451811594203" y="1096.0">java_oop.lesson_1_2.Fitness_Trainer_v1.Users</node>
+    <node x="0.0" y="704.0">java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgramsList</node>
+    <node x="108.7851449275363" y="0.0">java_oop.lesson_1_2.Fitness_Trainer_v1.Exercise</node>
+    <node x="982.6914855072464" y="1328.0">java_oop.lesson_1_2.Fitness_Trainer_v1.FitnessTrainerRunner</node>
+    <node x="1409.451811594203" y="1151.5">java_oop.lesson_1_2.Fitness_Trainer_v1.UsersPredicates</node>
+    <node x="836.701811594203" y="289.5">java_oop.lesson_1_2.Fitness_Trainer_v1.GoalsEnum</node>
+    <node x="13.618478260869665" y="190.0">java_oop.lesson_1_2.Fitness_Trainer_v1.ExercisesList</node>
+    <node x="187.04347826086962" y="1129.5">java_oop.lesson_1_2.Fitness_Trainer_v1.Man</node>
+    <node x="484.0434782608696" y="1129.5">java_oop.lesson_1_2.Fitness_Trainer_v1.Woman</node>
+    <node x="602.951811594203" y="256.5">java_oop.lesson_1_2.Fitness_Trainer_v1.WeightTypesEnum</node>
+    <node x="847.451811594203" y="1129.5">java_oop.lesson_1_2.Fitness_Trainer_v1.UsersComparators</node>
+    <node x="741.9208333333335" y="594.0">java_oop.lesson_1_2.Fitness_Trainer_v1.Human</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.ExercisesList" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Exercise">
+      <point x="-1.4210854715202004E-14" y="-147.0" />
+      <point x="127.11847826086967" y="170.0" />
+      <point x="165.18514492753627" y="170.0" />
+      <point x="-37.60000000000002" y="70.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.UsersComparators" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Human">
+      <point x="-1.1368683772161603E-13" y="-47.5" />
+      <point x="986.9518115942029" y="1076.0" />
+      <point x="911.1986111111112" y="1076.0" />
+      <point x="30.777777777777715" y="191.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.FitnessTrainerRunner" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Users">
+      <point x="10.5625" y="-25.5" />
+      <point x="1077.7539855072464" y="1278.0" />
+      <point x="1207.201811594203" y="1278.0" />
+      <point x="-60.75" y="81.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgramsList" target="java_oop.lesson_1_2.Fitness_Trainer_v1.ExercisesList">
+      <point x="-62.80000000000004" y="-81.0" />
+      <point x="94.19999999999993" y="504.0" />
+      <point x="183.86847826086967" y="504.0" />
+      <point x="56.75" y="147.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Man" target="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgram">
+      <point x="-69.25" y="-47.5" />
+      <point x="256.2934782608696" y="1006.0" />
+      <point x="327.0583333333334" y="1006.0" />
+      <point x="327.0583333333334" y="544.0" />
+      <point x="419.28514492753635" y="544.0" />
+      <point x="22.666666666666686" y="59.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Woman" target="java_oop.lesson_1_2.Fitness_Trainer_v1.WeightTypesEnum">
+      <point x="-23.083333333333258" y="-47.5" />
+      <point x="599.4601449275364" y="1016.0" />
+      <point x="676.951811594203" y="1016.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.FitnessTrainerRunner" target="java_oop.lesson_1_2.Fitness_Trainer_v1.UsersPredicates">
+      <point x="52.8125" y="-25.5" />
+      <point x="1120.0039855072464" y="1298.0" />
+      <point x="1552.951811594203" y="1298.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Man" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Human">
+      <point x="115.41666666666663" y="-47.5" />
+      <point x="440.96014492753625" y="1046.0" />
+      <point x="788.0875000000001" y="1046.0" />
+      <point x="-92.33333333333337" y="191.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.UsersPredicates" target="java_oop.lesson_1_2.Fitness_Trainer_v1.GoalsEnum">
+      <point x="71.75" y="-25.5" />
+      <point x="1624.701811594203" y="554.0" />
+      <point x="940.951811594203" y="554.0" />
+      <point x="34.75" y="47.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Human" target="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgram">
+      <point x="-103.875" y="-191.0" />
+      <point x="776.5458333333335" y="534.0" />
+      <point x="509.95181159420304" y="534.0" />
+      <point x="113.33333333333337" y="59.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.FitnessTrainerRunner" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Human">
+      <point x="-31.6875" y="-25.5" />
+      <point x="1035.5039855072464" y="1288.0" />
+      <point x="836.951811594203" y="1288.0" />
+      <point x="836.951811594203" y="1076.0" />
+      <point x="880.4208333333335" y="1076.0" />
+      <point x="0.0" y="191.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.FitnessTrainerRunner" target="java_oop.lesson_1_2.Fitness_Trainer_v1.GoalsEnum">
+      <point x="73.9375" y="-25.5" />
+      <point x="1141.1289855072464" y="1308.0" />
+      <point x="1706.951811594203" y="1308.0" />
+      <point x="1706.951811594203" y="544.0" />
+      <point x="964.1184782608697" y="544.0" />
+      <point x="57.91666666666663" y="47.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Human" target="java_oop.lesson_1_2.Fitness_Trainer_v1.WeightTypesEnum">
+      <point x="-34.625" y="-191.0" />
+      <point x="845.7958333333335" y="524.0" />
+      <point x="726.2851449275364" y="524.0" />
+      <point x="49.33333333333337" y="80.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Woman" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Human">
+      <point x="69.25" y="-47.5" />
+      <point x="691.7934782608696" y="1056.0" />
+      <point x="818.8652777777779" y="1056.0" />
+      <point x="-61.55555555555554" y="191.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.FitnessTrainerRunner" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Man">
+      <point x="-73.9375" y="-25.5" />
+      <point x="993.2539855072464" y="1308.0" />
+      <point x="325.5434782608696" y="1308.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgram" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Exercise">
+      <point x="68.0" y="-59.0" />
+      <point x="464.61847826086967" y="160.0" />
+      <point x="277.9851449275362" y="160.0" />
+      <point x="75.19999999999993" y="70.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Man" target="java_oop.lesson_1_2.Fitness_Trainer_v1.GoalsEnum">
+      <point x="23.08333333333337" y="-47.5" />
+      <point x="348.626811594203" y="1026.0" />
+      <point x="441.28514492753635" y="1026.0" />
+      <point x="441.28514492753635" y="564.0" />
+      <point x="848.2851449275364" y="564.0" />
+      <point x="-57.91666666666663" y="47.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Man" target="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgramsList">
+      <point x="-115.41666666666663" y="-47.5" />
+      <point x="210.126811594203" y="1076.0" />
+      <point x="78.5" y="1076.0" />
+      <point x="-78.5" y="81.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Woman" target="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgram">
+      <point x="-69.25" y="-47.5" />
+      <point x="553.2934782608696" y="1026.0" />
+      <point x="581.5248188405799" y="1026.0" />
+      <point x="581.5248188405799" y="544.0" />
+      <point x="464.61847826086967" y="544.0" />
+      <point x="68.0" y="59.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgramsList" target="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgram">
+      <point x="125.60000000000002" y="-81.0" />
+      <point x="282.6" y="534.0" />
+      <point x="373.95181159420304" y="534.0" />
+      <point x="-22.66666666666663" y="59.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Woman" target="java_oop.lesson_1_2.Fitness_Trainer_v1.GoalsEnum">
+      <point x="23.08333333333337" y="-47.5" />
+      <point x="645.626811594203" y="1026.0" />
+      <point x="687.951811594203" y="1026.0" />
+      <point x="687.951811594203" y="574.0" />
+      <point x="871.451811594203" y="574.0" />
+      <point x="-34.75" y="47.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Users" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Human">
+      <point x="60.75" y="-81.0" />
+      <point x="1328.701811594203" y="1056.0" />
+      <point x="972.7541666666667" y="1056.0" />
+      <point x="92.33333333333326" y="191.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.UsersPredicates" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Human">
+      <point x="-71.75" y="-25.5" />
+      <point x="1481.201811594203" y="1046.0" />
+      <point x="1003.5319444444445" y="1046.0" />
+      <point x="123.11111111111109" y="191.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Woman" target="java_oop.lesson_1_2.Fitness_Trainer_v1.TrainingProgramsList">
+      <point x="-115.41666666666663" y="-47.5" />
+      <point x="507.126811594203" y="996.0" />
+      <point x="235.5" y="996.0" />
+      <point x="78.5" y="81.0" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Human" target="java_oop.lesson_1_2.Fitness_Trainer_v1.GoalsEnum">
+      <point x="34.625" y="-191.0" />
+      <point x="915.0458333333335" y="574.0" />
+      <point x="894.6184782608697" y="574.0" />
+      <point x="-11.583333333333371" y="47.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.FitnessTrainerRunner" target="java_oop.lesson_1_2.Fitness_Trainer_v1.Woman">
+      <point x="-52.8125" y="-25.5" />
+      <point x="1014.3789855072464" y="1298.0" />
+      <point x="622.5434782608696" y="1298.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.FitnessTrainerRunner" target="java_oop.lesson_1_2.Fitness_Trainer_v1.UsersComparators">
+      <point x="-10.5625" y="-25.5" />
+      <point x="1056.6289855072464" y="1278.0" />
+      <point x="986.951811594203" y="1278.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="java_oop.lesson_1_2.Fitness_Trainer_v1.Man" target="java_oop.lesson_1_2.Fitness_Trainer_v1.WeightTypesEnum">
+      <point x="-23.083333333333314" y="-47.5" />
+      <point x="302.4601449275363" y="1016.0" />
+      <point x="395.8083333333334" y="1016.0" />
+      <point x="395.8083333333334" y="554.0" />
+      <point x="627.6184782608697" y="554.0" />
+      <point x="-49.33333333333337" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0644746247319514" x="1165.361124022549" y="1200.683492880708" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
